@@ -59,6 +59,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         out << mas[i] << " ";
     }
-    delete [] mas;
+    delete[] mas;
 
 }
