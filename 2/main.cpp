@@ -19,8 +19,8 @@ using std::endl;
 int main() {
 
     int n, b, a, c, d, maxd, maxa;
-    ifstream in("/Users/maksimsein/Documents/gitKtaken/lab-8/2/input.txt");
-    ofstream out("/Users/maksimsein/Documents/gitKtaken/lab-8/2/output.txt");
+    ifstream in("input.txt");
+    ofstream out("output.txt");
 
     in >> n;
     int* mas = new int[n];
